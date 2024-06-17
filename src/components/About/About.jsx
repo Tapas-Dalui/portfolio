@@ -40,14 +40,14 @@ function About() {
                                 With a strong academic background and a thirst for knowledge.
 
                             </p>
-                            <br/>
+                            <br />
 
-                                <h4>Area of Interest</h4>
-                                <ul>
-                                    <li>MERN Stack</li>
-                                    <li>Cloud Computing</li>
-                                    <li>Data Engineering</li>
-                                </ul>
+                            <h4>Area of Interest</h4>
+                            <ul>
+                                <li>MERN Stack</li>
+                                <li>Cloud Computing</li>
+                                <li>Data Engineering</li>
+                            </ul>
                         </div>
 
 
