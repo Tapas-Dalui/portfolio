@@ -19,6 +19,14 @@ html {
     scroll-behavior: smooth;
 }
 
+section {
+    padding-top: 14vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+  }
+
 p {
     color: #555555;
 }
