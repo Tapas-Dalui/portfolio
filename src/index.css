@@ -229,4 +229,7 @@ p {
     #projects .pro {
         width: 100%;
     }
+    footer p {
+        margin-top: 50px;
+    }
 }

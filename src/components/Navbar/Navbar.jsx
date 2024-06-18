@@ -1,8 +1,8 @@
 import React from 'react'
 import { assets } from '../../assets/assets'
 import './Navbar.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-scroll'
+import { FaBarsStaggered } from "react-icons/fa6";
 
 function Navbar() {
     return (
@@ -49,7 +49,7 @@ function Navbar() {
                     </ul>
                 </div>
                 <div id="mobile">
-                    <FontAwesomeIcon icon="fa-solid fa-bars" />
+                <FaBarsStaggered />
                 </div>
             </div>
         </>
