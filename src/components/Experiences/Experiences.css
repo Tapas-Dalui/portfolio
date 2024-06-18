@@ -32,6 +32,10 @@ article {
     cursor: pointer;
 }
 
-article:hover {
+article:hover h3{
     color: #7644da;
+}
+
+article .icons{
+    font-size: 35px;
 }

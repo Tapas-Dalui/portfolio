@@ -1,5 +1,17 @@
 import React from 'react'
 import './Experiences.css'
+import { FaHtml5 } from "react-icons/fa6";
+import { IoLogoCss3 } from "react-icons/io";
+import { FaReact } from "react-icons/fa6";
+import { IoLogoJavascript } from "react-icons/io5";
+import { BiLogoTypescript } from "react-icons/bi";
+import { FaAngular } from "react-icons/fa6";
+import { FaNodeJs } from "react-icons/fa6";
+import { SiSpring } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { SiSpringboot } from "react-icons/si";
+import { FaJava } from "react-icons/fa6";
 
 function Experiences() {
     return (
@@ -13,44 +25,45 @@ function Experiences() {
                             <h2 className="experience-sub-title">Frontend Development</h2>
                             <div className="article-container">
                                 <article>
-                                    <i className="fa-brands fa-html5"></i>
+                                    <FaHtml5 className='icons' />
                                     <div>
                                         <h3>HTML</h3>
                                         <p>Experienced</p>
                                     </div>
                                 </article>
                                 <article>
-                                    <i className="fa-brands fa-css3-alt"></i>
+
+                                    <IoLogoCss3 className='icons' />
                                     <div>
                                         <h3>CSS</h3>
                                         <p>Experienced</p>
                                     </div>
                                 </article>
                                 <article>
-                                    <i className="fa-brands fa-react"></i>
+                                    <FaReact className='icons' />
                                     <div>
                                         <h3>React JS</h3>
                                         <p>Intermediate</p>
                                     </div>
                                 </article>
                                 <article>
-                                    <i className="fa-brands fa-square-js"></i>
+                                    <IoLogoJavascript className='icons' />
                                     <div>
                                         <h3>JavaScript</h3>
                                         <p>Basic</p>
                                     </div>
                                 </article>
                                 <article>
-                                    <i className="fa-solid fa-check tick"></i>
+                                    <BiLogoTypescript className='icons' />
                                     <div>
                                         <h3>TypeScript</h3>
                                         <p>Basic</p>
                                     </div>
                                 </article>
                                 <article>
-                                    <i className="fa-solid fa-m"></i>
+                                    <FaAngular className='icons' />
                                     <div>
-                                        <h3>Material UI</h3>
+                                        <h3>Angular JS</h3>
                                         <p>Intermediate</p>
                                     </div>
                                 </article>
@@ -60,44 +73,44 @@ function Experiences() {
                             <h2 className="experience-sub-title">Backend Development</h2>
                             <div className="article-container">
                                 <article>
-                                    <i className="fa-brands fa-java"></i>
+                                    <FaNodeJs className='icons' />
                                     <div>
-                                        <h3>J SERVLET</h3>
+                                        <h3>Node JS</h3>
                                         <p>Basic</p>
                                     </div>
                                 </article>
                                 <article>
-                                    <i className="fa-solid fa-check tick"></i>
+                                    <SiSpring className='icons' />
+                                    <div>
+                                        <h3>Spring</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <SiExpress className='icons' />
                                     <div>
                                         <h3>Express JS</h3>
                                         <p>Intermediate</p>
                                     </div>
                                 </article>
                                 <article>
-                                    <i className="fa-brands fa-git-alt"></i>
+                                    <SiSpringboot className='icons' />
                                     <div>
-                                        <h3>Git & Github</h3>
+                                        <h3>Spring Boot</h3>
                                         <p>Intermediate</p>
                                     </div>
                                 </article>
                                 <article>
-                                    <i className="fa-brands fa-react"></i>
-                                    <div>
-                                        <h3>React JS</h3>
-                                        <p>Intermediate</p>
-                                    </div>
-                                </article>
-                                <article>
-                                    <i className="fa-solid fa-database"></i>
+                                    <SiMongodb className='icons' />
                                     <div>
                                         <h3>MongoBD</h3>
                                         <p>Intermediate</p>
                                     </div>
                                 </article>
                                 <article>
-                                    <i className="fa-brands fa-node-js"></i>
+                                    <FaJava className='icons' />
                                     <div>
-                                        <h3>Node JS</h3>
+                                        <h3>JSP & Servlet</h3>
                                         <p>Intermediate</p>
                                     </div>
                                 </article>

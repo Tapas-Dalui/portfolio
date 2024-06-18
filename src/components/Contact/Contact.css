@@ -26,12 +26,16 @@
     gap: 0.5rem;
     margin: 1rem;
 }
-
-.contact-info-container a {
-    margin: 10px;
+.contact-info-container .icons{
+    color: #232323;
+    font-size: 35px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
-.contact-info-container a i:hover {
+
+
+.contact-info-container .icons:hover {
     color: #7644da;
 }
 

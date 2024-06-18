@@ -1,5 +1,8 @@
 import React from 'react'
 import './About.css'
+import { IoSchool } from "react-icons/io5";
+import { GrProjects } from "react-icons/gr";
+import { SiLeetcode } from "react-icons/si";
 
 function About() {
     return (
@@ -13,7 +16,7 @@ function About() {
                         <div className="about-containers">
 
                             <div className="details-container">
-                                <i className="fa-solid fa-graduation-cap about-icon"></i>
+                            <IoSchool className='icons' />
                                 <h3>Education</h3>
                                 <p>B.Sc.(CS) - 2023<br />M.Sc.(CS) - Pursuing</p>
                             </div>
@@ -24,12 +27,12 @@ function About() {
                             </div>
 
                             <div className="details-container">
-                                <i className="fa-solid fa-diagram-project"></i>
+                            <GrProjects className='icons'/>
                                 <h3>Projects</h3>
                                 <p><b>50+ </b>Projects on Full stack Development</p>
                             </div>
                             <div className="details-container">
-                                <i className="fa-solid fa-circle-nodes"></i>
+                            <SiLeetcode className='icons'/>
                                 <h3>Leetcode</h3>
                                 <p>solved 200+ questions on DSA & PHP</p>
                             </div>

@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 50vh;
 }
 
 .section__pic-container {
@@ -46,8 +46,12 @@
     margin-top: 1rem;
     gap: 1rem;
 }
-
-#socials-container a i:hover {
+#socials-container .icons{
+    color: #232323;
+    font-size: 35px;
+    cursor: pointer;
+}
+#socials-container .icons:hover{
     color: #7644da;
 }
 

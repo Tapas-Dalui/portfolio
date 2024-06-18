@@ -1,7 +1,10 @@
 import React from 'react'
-import {assets} from '../../assets/assets'
+import { assets } from '../../assets/assets'
 import './Hero.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaSquareFacebook } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaGithub } from "react-icons/fa6";
 
 function Hero() {
     return (
@@ -26,10 +29,11 @@ function Hero() {
                         </button>
                     </div>
                     <div id="socials-container">
-                        <a href="mailto:tdalui865@gmail.com" target="_blank"><i className="fa-solid fa-envelope"></i></a>
-                        <a href="" target="_blank"><i className="fa-brands fa-facebook"></i></a>
-                        <a href="www.linkedin.com/in/tapas-dalui" target="_blank"><FontAwesomeIcon icon="fa-brands fa-facebook" /></a>
-                        <a href="https://github.com/Tapas-Dalui" target="_blank"><i className="fa-brands fa-github"></i></a>
+                        <FaLinkedin className='icons' />
+                        <FaSquareFacebook className='icons' />
+                        <FaGithub className='icons' />
+                        <MdEmail className='icons' />
+
                     </div>
                 </div>
             </section>

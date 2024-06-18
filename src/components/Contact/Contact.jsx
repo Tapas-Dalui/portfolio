@@ -1,5 +1,10 @@
 import React from 'react'
 import './Contact.css'
+import { FaSquareFacebook } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaGithub } from "react-icons/fa6";
+
 
 function Contact() {
     return (
@@ -9,10 +14,10 @@ function Contact() {
                 <h1 className="title">Contact Me</h1>
                 <div className="contact-info-upper-container">
                     <div className="contact-info-container">
-                        <a href="mailto:tdalui865@gmail.com" target="_blank"><i className="fa-solid fa-envelope"></i></a>
-                        <a href="" target="_blank"><i className="fa-brands fa-facebook" ></i></a>
-                        <a href="" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/Tapas-Dalui" target="_blank"><i className="fa-brands fa-github"></i></a>
+                        <FaLinkedin className='icons' />
+                        <FaSquareFacebook className='icons' />
+                        <FaGithub className='icons' />
+                        <MdEmail className='icons' />
                     </div>
                 </div>
             </section>
