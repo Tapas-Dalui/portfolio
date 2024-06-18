@@ -42,12 +42,6 @@ function About() {
                             </p>
                             <br />
 
-                            <h4>Area of Interest</h4>
-                            <ul>
-                                <li>MERN Stack</li>
-                                <li>Cloud Computing</li>
-                                <li>Data Engineering</li>
-                            </ul>
                         </div>
 
 

@@ -12,8 +12,10 @@
     left: 0;
 }
 
+
 #header .logo {
     width: 90px;
+    cursor: pointer;
 
 }
 
@@ -28,6 +30,7 @@
     list-style: none;
     padding: 0 10px;
     position: relative;
+    cursor: pointer;
 }
 
 #navbar li a {
