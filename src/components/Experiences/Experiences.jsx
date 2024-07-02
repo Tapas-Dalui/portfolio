@@ -1,7 +1,5 @@
 import React from 'react'
 import './Experiences.css'
-import { FaHtml5 } from "react-icons/fa6";
-import { IoLogoCss3 } from "react-icons/io";
 import { FaReact } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoTypescript } from "react-icons/bi";
@@ -12,6 +10,8 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiSpringboot } from "react-icons/si";
 import { FaJava } from "react-icons/fa6";
+import { FaCode } from "react-icons/fa";
+import { FaHashtag } from "react-icons/fa";
 
 function Experiences() {
     return (
@@ -25,18 +25,25 @@ function Experiences() {
                             <h2 className="experience-sub-title">Frontend Development</h2>
                             <div className="article-container">
                                 <article>
-                                    <FaHtml5 className='icons' />
+                                    <FaCode className='icons'/>
                                     <div>
                                         <h3>HTML</h3>
                                         <p>Experienced</p>
                                     </div>
                                 </article>
                                 <article>
-
-                                    <IoLogoCss3 className='icons' />
+                                    <FaHashtag className='icons'/>
                                     <div>
                                         <h3>CSS</h3>
                                         <p>Experienced</p>
+                                    </div>
+                                </article>
+                                
+                                <article>
+                                    <IoLogoJavascript className='icons' />
+                                    <div>
+                                        <h3>JavaScript</h3>
+                                        <p>Basic</p>
                                     </div>
                                 </article>
                                 <article>
@@ -44,13 +51,6 @@ function Experiences() {
                                     <div>
                                         <h3>React JS</h3>
                                         <p>Intermediate</p>
-                                    </div>
-                                </article>
-                                <article>
-                                    <IoLogoJavascript className='icons' />
-                                    <div>
-                                        <h3>JavaScript</h3>
-                                        <p>Basic</p>
                                     </div>
                                 </article>
                                 <article>

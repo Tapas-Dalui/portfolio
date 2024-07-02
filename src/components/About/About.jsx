@@ -1,10 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './About.css'
 import { IoSchool } from "react-icons/io5";
 import { GrProjects } from "react-icons/gr";
 import { SiLeetcode } from "react-icons/si";
+import { FaBookBookmark } from "react-icons/fa6";
 
 function About() {
+
+    const [data, setData]= useState([])
+
+    useEffect(()=>{
+        fetch('https://api.github.com/users/Tapas-Dalui')
+        .then((response)=> response.json())
+        .then((data)=>{
+            console.log(data);
+            setData(data)
+        })
+    },[])
+
     return (
         <>
             <section id="about">
@@ -21,20 +34,20 @@ function About() {
                                 <p>B.Sc.(CS) - 2023<br />M.Sc.(CS) - Pursuing</p>
                             </div>
                             <div className="details-container">
-                                <i className="fa-solid fa-envelope-circle-check"></i>
-                                <h3>Internships</h3>
-                                <p>completed  <b>6</b> AICTE Internships </p>
+                                <FaBookBookmark className='icons' />
+                                <h3>Repositories</h3>
+                                <p>Created  <b className='font-bold'>{data.public_repos}</b> Github Repositories </p>
                             </div>
 
                             <div className="details-container">
                             <GrProjects className='icons'/>
                                 <h3>Projects</h3>
-                                <p><b>50+ </b>Projects on Full stack Development</p>
+                                <p><b className='font-bold'>50+ </b>Projects on Full Stack Development</p>
                             </div>
                             <div className="details-container">
                             <SiLeetcode className='icons'/>
                                 <h3>Leetcode</h3>
-                                <p>solved 200+ questions on DSA & PHP</p>
+                                <p>solved <b className='font-bold'>200+</b>  questions on DSA</p>
                             </div>
                         </div>
                         <div className="text-container">

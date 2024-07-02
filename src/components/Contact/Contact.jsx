@@ -1,8 +1,8 @@
 import React from 'react'
 import './Contact.css'
-import { FaSquareFacebook } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { BsTwitterX } from "react-icons/bs";
+import { FaLinkedinIn } from "react-icons/fa";
+import { MdMailOutline } from "react-icons/md";
 import { FaGithub } from "react-icons/fa6";
 
 
@@ -14,10 +14,10 @@ function Contact() {
                 <h1 className="title">Contact Me</h1>
                 <div className="contact-info-upper-container">
                     <div className="contact-info-container">
-                        <FaLinkedin className='icons' />
-                        <FaSquareFacebook className='icons' />
+                        <FaLinkedinIn className='icons' />
+                        <BsTwitterX className='icons' />
                         <FaGithub className='icons' />
-                        <MdEmail className='icons' />
+                        <MdMailOutline className='icons' />
                     </div>
                 </div>
             </section>

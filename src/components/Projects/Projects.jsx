@@ -1,8 +1,13 @@
 import React from 'react'
 import './Projects.css'
 import { assets } from '../../assets/assets'
+import { useNavigate } from 'react-router-dom'
 
 function Projects() {
+
+    const navigateToPage = (url) => {
+        window.open(url, '_blank');
+    };
 
     return (
         <>
@@ -16,7 +21,8 @@ function Projects() {
                             <h5>Toko - online shop</h5>
                             <div className="btn-container">
                                 <button className="btn btn-color-2 project-btn view"
-                                    onClick="location.href='https://tapas-dalui.github.io/toko'">
+                                    onClick={()=> navigateToPage('https://github.com/Tapas-Dalui')}
+                                >
                                     View
                                 </button>
                             </div>
@@ -27,8 +33,7 @@ function Projects() {
                         <div className="des">
                             <h5>Fruitopia - strawberries</h5>
                             <div className="btn-container">
-                                <button className="btn btn-color-2 project-btn view"
-                                    onClick="location.href='https://tapas-dalui.github.io/FRUITOPIA'">
+                                <button className="btn btn-color-2 project-btn view">
                                     View
                                 </button>
                             </div>
@@ -39,8 +44,7 @@ function Projects() {
                         <div className="des">
                             <h5>To do list</h5>
                             <div className="btn-container">
-                                <button className="btn btn-color-2 project-btn view"
-                                    onClick="location.href='https://tapas-dalui.github.io/to-do-list'">
+                                <button className="btn btn-color-2 project-btn view">
                                     View
                                 </button>
                             </div>
@@ -51,8 +55,7 @@ function Projects() {
                         <div className="des">
                             <h5>Price Table</h5>
                             <div className="btn-container">
-                                <button className="btn btn-color-2 project-btn view"
-                                    onClick="location.href='https://tapas-dalui.github.io/Price-Table'">
+                                <button className="btn btn-color-2 project-btn view">
                                     View
                                 </button>
                             </div>
@@ -63,8 +66,7 @@ function Projects() {
                         <div className="des">
                             <h5>Birds Sanctuary</h5>
                             <div className="btn-container">
-                                <button className="btn btn-color-2 project-btn view"
-                                    onClick="location.href='https://tapas-dalui.github.io/birds_sanctuary'">
+                                <button className="btn btn-color-2 project-btn view">
                                     View
                                 </button>
                             </div>
@@ -75,8 +77,7 @@ function Projects() {
                         <div className="des">
                             <h5>Product Page</h5>
                             <div className="btn-container">
-                                <button className="btn btn-color-2 project-btn view"
-                                    onClick="location.href='https://tapas-dalui.github.io/product_page'">
+                                <button className="btn btn-color-2 project-btn view">
                                     View
                                 </button>
                             </div>

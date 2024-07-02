@@ -30,7 +30,10 @@ section {
 p {
     color: #555555;
 }
-
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 /** Responsive **/
 
@@ -139,6 +142,9 @@ p {
         color: #1a1a1a;
         font-size: 24px;
         padding-left: 25px;
+    }
+    .hide-mobile-menu{
+        right: 0;
     }
 
     #close {
