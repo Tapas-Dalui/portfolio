@@ -23,6 +23,11 @@
     cursor: pointer;
 }
 
+.sidebar-option.active{
+    background: #9b92ff;
+    border-color: #1500ff;
+}
+
 
 /**Responsive**/
 
