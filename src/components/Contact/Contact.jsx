@@ -14,10 +14,18 @@ function Contact() {
                 <h1 className="title">Contact Me</h1>
                 <div className="contact-info-upper-container">
                     <div className="contact-info-container">
-                        <FaLinkedinIn className='icons' />
-                        <BsTwitterX className='icons' />
-                        <FaGithub className='icons' />
-                        <MdMailOutline className='icons' />
+                        <a href="https://www.linkedin.com/in/tapas-dalui/" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedinIn className='icons' />
+                        </a>
+                        <a href="https://x.com/tapasdalui123" target="_blank" rel="noopener noreferrer">
+                            <BsTwitterX className='icons' />
+                        </a>
+                        <a href="https://github.com/Tapas-Dalui" target="_blank" rel="noopener noreferrer">
+                            <FaGithub className='icons' />
+                        </a>
+                        <a href="mailto:tdalui865@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <MdMailOutline className='icons' />
+                        </a>
                     </div>
                 </div>
             </section>

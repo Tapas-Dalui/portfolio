@@ -20,7 +20,7 @@ function Hero() {
                     <div className="btn-container">
                         <button
                             className="btn btn-color-2"
-                            
+
                         >
                             Download CV
                         </button>
@@ -29,10 +29,18 @@ function Hero() {
                         </button>
                     </div>
                     <div id="socials-container">
-                        <FaLinkedinIn className='icons' />
-                        <BsTwitterX className='icons' />
-                        <FaGithub className='icons' />
-                        <MdMailOutline className='icons' />
+                        <a href="https://www.linkedin.com/in/tapas-dalui/" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedinIn className='icons' />
+                        </a>
+                        <a href="https://x.com/tapasdalui123" target="_blank" rel="noopener noreferrer">
+                            <BsTwitterX className='icons' />
+                        </a>
+                        <a href="https://github.com/Tapas-Dalui" target="_blank" rel="noopener noreferrer">
+                            <FaGithub className='icons' />
+                        </a>
+                        <a href="mailto:tdalui865@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <MdMailOutline className='icons' />
+                        </a>
 
                     </div>
                 </div>
