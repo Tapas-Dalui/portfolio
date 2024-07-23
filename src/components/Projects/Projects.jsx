@@ -5,9 +5,10 @@ import { useNavigate } from 'react-router-dom'
 
 function Projects() {
 
-    const navigateToPage = (url) => {
-        window.open(url, '_blank');
-    };
+    const navigate = useNavigate()
+    const navToPage = (url) =>{
+        navigate(url)
+    }
 
     return (
         <>
@@ -85,7 +86,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className="project-btn">
-                    <a className="primary_btn" href="projects.html"><span>More Projects<i className="fa-solid fa-angles-right"></i></span></a>
+                    <button onClick={()=> navToPage('/projects')} className="primary_btn" href="projects.html"><span>More Projects<i className="fa-solid fa-angles-right"></i></span></button>
                 </div>
             </section>
         </>

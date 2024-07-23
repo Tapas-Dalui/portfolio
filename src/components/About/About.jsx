@@ -13,7 +13,6 @@ function About() {
         fetch('https://api.github.com/users/Tapas-Dalui')
         .then((response)=> response.json())
         .then((data)=>{
-            console.log(data);
             setData(data)
         })
     },[])

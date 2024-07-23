@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
 import { Link } from 'react-scroll'
 import { FaBars } from "react-icons/fa6";
+import { IoClose } from "react-icons/io5";
 
 function Navbar() {
 
@@ -47,7 +48,12 @@ function Navbar() {
                     </li>
 
                 </ul>
-                <FaBars className='menu-icon-black' onClick={toggleMenu} />
+                {
+                    mobileMenu ? 
+                    <IoClose className='close-icon-black' onClick={toggleMenu} />:
+                    <FaBars className='menu-icon-black' onClick={toggleMenu} /> 
+                }
+                
             </nav>
         </>
     )

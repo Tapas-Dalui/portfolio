@@ -28,6 +28,7 @@ nav li a.active {
 .logo {
     width: 120px;
     cursor: pointer;
+    margin: 5px 0;
 }
 
 nav ul li {
@@ -38,12 +39,17 @@ nav ul li {
     cursor: pointer;
 }
 
-.menu-icon-black{
-    width: 20px;
+.menu-icon-black, 
+.close-icon-black{
+    width: 25px;
     height: auto;
     cursor: pointer;
     display: none;
     color: #232323;
+}
+.close-icon-black{
+    width: 40px;
+    color: #ef0000;
 }
 
 
@@ -62,7 +68,13 @@ nav ul li {
 
 
 @media (max-width: 870px) {
+    .container{
+        padding: 0 5%;
+    }
     .menu-icon-black {
+        display: block;
+    }
+    .close-icon-black {
         display: block;
     }
 
@@ -87,7 +99,9 @@ nav ul li {
         display: block;
         margin: 25px 40px;
     }
-
+    .logo{
+        width: 100px;
+    }
     .hide-mobile-menu {
         right: 0px;
     }

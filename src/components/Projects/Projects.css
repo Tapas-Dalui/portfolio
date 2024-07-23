@@ -55,8 +55,9 @@
     margin-bottom: 50px;
 }
 
-.project-btn a {
-    text-decoration: none;
+.project-btn button {
+    outline: none;
+    border: none;
 }
 
 .primary_btn {

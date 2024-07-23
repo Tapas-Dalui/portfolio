@@ -18,10 +18,7 @@ function Hero() {
                     <h1 className="title">Tapas Dalui</h1>
                     <p className="section__text__p2">Full Stack Java Developer</p>
                     <div className="btn-container">
-                        <button
-                            className="btn btn-color-2"
-
-                        >
+                        <button className="btn btn-color-2">
                             Download CV
                         </button>
                         <button className="btn btn-color-1">

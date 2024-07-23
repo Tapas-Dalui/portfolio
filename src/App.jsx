@@ -1,22 +1,19 @@
 import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Hero/Hero'
-import About from './components/About/About'
-import Experiences from './components/Experiences/Experiences'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
-import Projects from './components/Projects/Projects'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import MoreProjects from './components/MoreProjects'
+import MainPage from './components/MainPage'
+
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Experiences />
-      <Projects />
-      <Contact />
-      <Footer />
+
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<MainPage />} />
+          <Route path='/projects' element={<MoreProjects />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

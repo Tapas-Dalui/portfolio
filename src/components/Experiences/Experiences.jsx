@@ -25,20 +25,20 @@ function Experiences() {
                             <h2 className="experience-sub-title">Frontend Development</h2>
                             <div className="article-container">
                                 <article>
-                                    <FaCode className='icons'/>
+                                    <FaCode className='icons' />
                                     <div>
                                         <h3>HTML</h3>
                                         <p>Experienced</p>
                                     </div>
                                 </article>
                                 <article>
-                                    <FaHashtag className='icons'/>
+                                    <FaHashtag className='icons' />
                                     <div>
                                         <h3>CSS</h3>
                                         <p>Experienced</p>
                                     </div>
                                 </article>
-                                
+
                                 <article>
                                     <IoLogoJavascript className='icons' />
                                     <div>
