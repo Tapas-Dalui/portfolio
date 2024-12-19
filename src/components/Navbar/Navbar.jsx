@@ -20,7 +20,9 @@ function Navbar() {
                     <img src={logo} className='logo' />
                 </Link>
 
-                <ul className={mobileMenu ? 'hide-mobile-menu' : ''}>
+                
+                    
+                    <ul className={mobileMenu ? 'hide-mobile-menu' : ''}>
                     <li>
                         <Link to="profile" spy={true} smooth={true} offset={-100} duration={300}>
                             Home
@@ -47,12 +49,14 @@ function Navbar() {
                         </Link>
                     </li>
 
-                </ul>
-                {
+                    </ul>
+                    {
                     mobileMenu ? 
                     <IoClose className='close-icon-black' onClick={toggleMenu} />:
                     <FaBars className='menu-icon-black' onClick={toggleMenu} /> 
-                }
+                    }
+                
+                
                 
             </nav>
         </>
